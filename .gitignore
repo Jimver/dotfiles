@@ -1,0 +1,13 @@
+*
+!.gitignore
+!.nanorc
+!.xbindkeysrc
+!.xinitrc
+!.zshrc
+
+!/.config/alacritty/
+!/.config/alacritty/**
+!/.config/awesome/
+!/.config/awesome/**
+!/.config/glava/**
+
