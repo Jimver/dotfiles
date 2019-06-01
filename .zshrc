@@ -4,7 +4,7 @@ export PATH=$HOME/.config/awesome/bin:$PATH
 
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/jim/.oh-my-zsh"
+export ZSH="/home/jim/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -99,6 +99,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ga="git add"
+alias gcm="git commit -m"
+alias gps="git push"
+alias gpl="git pull"
+
 # Turn off all beeps
 unsetopt BEEP
 
