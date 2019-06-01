@@ -104,6 +104,7 @@ alias ga="git add"
 alias gcm="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
+alias update-grub="grub-mkconfig -o /boot/grub/grub.cfg"
 
 # Turn off all beeps
 unsetopt BEEP
