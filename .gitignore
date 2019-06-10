@@ -11,4 +11,4 @@
 !/.config/awesome/**
 !/.config/glava/
 !/.config/glava/**
-
+!/.config/libinput-gestures.conf
