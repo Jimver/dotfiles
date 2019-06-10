@@ -13,3 +13,5 @@
 !/.config/glava/**
 !/.config/libinput-gestures.conf
 !/.config/compton.conf
+!/.config/neofetch/
+!/.config/neofetch/**
