@@ -109,4 +109,14 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 # Turn off all beeps
 unsetopt BEEP
 
+# Setup Node Version Manager
+source /usr/share/nvm/init-nvm.sh
+export NVM_DIR="$HOME/.nvm"                            # You can change this if you want.
+export NVM_SOURCE="/usr/share/nvm"                     # The AUR package installs it to here.
+[ -s "$NVM_SOURCE/nvm.sh" ] && . "$NVM_SOURCE/nvm.sh"  # Load NVM
+
+# Add gems to path
+PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
+
+# Fancy system info
 neofetch
