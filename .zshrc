@@ -2,6 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.config/awesome/bin:$HOME/.local/bin:$PATH
 
+# Add gems to path
+PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jim/.oh-my-zsh"
@@ -114,9 +116,6 @@ source /usr/share/nvm/init-nvm.sh
 export NVM_DIR="$HOME/.nvm"                            # You can change this if you want.
 export NVM_SOURCE="/usr/share/nvm"                     # The AUR package installs it to here.
 [ -s "$NVM_SOURCE/nvm.sh" ] && . "$NVM_SOURCE/nvm.sh"  # Load NVM
-
-# Add gems to path
-PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Fancy system info
 neofetch

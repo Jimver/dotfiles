@@ -4,6 +4,7 @@
 !.xbindkeysrc
 !.xinitrc
 !.zshrc
+!.zprofile
 !.config/
 !/.config/alacritty/
 !/.config/alacritty/**
