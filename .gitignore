@@ -11,7 +11,8 @@
 !/.config/awesome/**
 !/.config/glava/
 !/.config/glava/**
-!/.config/libinput-gestures.conf
+!/.config/fusuma/
+!/.config/fusuma/**
 !/.config/compton.conf
 !/.config/neofetch/
 !/.config/neofetch/**
