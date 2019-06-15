@@ -17,3 +17,5 @@
 !/.config/compton.conf
 !/.config/neofetch/
 !/.config/neofetch/**
+!/.config/redshift/
+!/.config/redshift/**
