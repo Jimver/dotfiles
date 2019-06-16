@@ -21,3 +21,5 @@
 !/.config/redshift/**
 !/.config/rofi/
 !/.config/rofi/**
+!/.config/systemd/
+!/.config/systemd/**
