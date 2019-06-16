@@ -12,7 +12,7 @@ pinch:
   in:
     command: 'xdotool key ctrl+equal'
   out:
-    command: 'xdotool key ctrl+minus'
+    command: 'rofi -show window'
 
 threshold:
   swipe: 0.5

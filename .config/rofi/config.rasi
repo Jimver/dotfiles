@@ -1,6 +1,6 @@
 configuration {
     terminal: "alacritty";
-    modi: "drun,combi,windowcd,ssh";
+    modi: "combi,drun,ssh";
     lines: 10;
     columns: 2;
     font: "sans 13";
