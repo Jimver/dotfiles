@@ -1,11 +1,13 @@
 [Unit]
 Description=Redshift display colour temperature adjustment (GUI)
 Documentation=http://jonls.dk/redshift/
-#After=xsession.target
+#Wants=xsession.target
+After=xsession.target
 
 [Service]
 ExecStart=/usr/bin/redshift-gtk
 Restart=always
+RestartSec=1
 
 [Install]
-WantedBy=xsession.target
+#WantedBy=xsession.target
