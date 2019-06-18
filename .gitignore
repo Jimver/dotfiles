@@ -5,6 +5,8 @@
 !.xinitrc
 !.zshrc
 !.zprofile
+!Scripts/
+!Scripts/**
 !.config/
 !/.config/alacritty/
 !/.config/alacritty/**
