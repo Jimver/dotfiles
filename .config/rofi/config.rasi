@@ -1,6 +1,6 @@
 configuration {
     terminal: "alacritty";
-    modi: "combi,drun,ssh";
+    modi: "combi,run,ssh";
     lines: 10;
     columns: 2;
     font: "sans 13";
@@ -10,7 +10,7 @@ configuration {
     fixed-num-lines: true;
     show-icons: true;
     sidebar-mode: true;
-    combi-modi: "window,run";
+    combi-modi: "window,drun";
     separator-style: "none";
     hide-scrollbar: true;
     fullscreen: false;
