@@ -1,5 +1,12 @@
+#!/bin/bash
 
+# Check for root permission
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
 
+# EFI Boot Manager variables
 DEV_NAME=nvme0n1
 PARTITION=5
 ROOT_UUID=1b6aadd9-15f1-4b61-99be-5e97e658e1d7
