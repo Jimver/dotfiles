@@ -7,7 +7,7 @@ After=xsession.target
 [Service]
 ExecStart=/usr/bin/redshift-gtk
 Restart=always
-RestartSec=1
+RestartSec=2
 
 [Install]
 #WantedBy=xsession.target
