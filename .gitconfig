@@ -1,0 +1,13 @@
+[user]
+	name = jimver
+	email = jim.verheijde@hotmail.com
+	signingkey = 1B40EB1647A951EE
+[commit]
+	gpgsign = true
+
+[includeIf "gitdir:/home/jim/work/"]
+    [user]
+        email = "jim@polygon.nl"
+    [core]
+        sshCommand = "ssh -i ~/.ssh/work_key"
+
