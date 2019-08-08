@@ -12,4 +12,5 @@
 	signingkey = 5F9B0E00138E775F
     [core]
         sshCommand = "ssh -i ~/.ssh/work_key"
+	autocrlf = input
 
