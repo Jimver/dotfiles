@@ -104,12 +104,21 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# --- Aliases ---
+
+# Meme aliases
+alias fcl="fortune | cowsay | lolcat"
+
+# Git aliases
 alias gst="git status"
 alias ga="git add"
 alias gcm="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+# --- End Aliases ---
 
 # Turn off all beeps
 unsetopt BEEP
