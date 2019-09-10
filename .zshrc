@@ -2,6 +2,9 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.config/awesome/bin:$HOME/.local/bin:$PATH
 
+# Update wal colours
+(cat ~/.cache/wal/sequences &)
+
 # Add gems to path
 PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
@@ -128,6 +131,7 @@ source /usr/share/nvm/init-nvm.sh
 export NVM_DIR="$HOME/.nvm"                            # You can change this if you want.
 export NVM_SOURCE="/usr/share/nvm"                     # The AUR package installs it to here.
 [ -s "$NVM_SOURCE/nvm.sh" ] && . "$NVM_SOURCE/nvm.sh"  # Load NVM
+
 
 # Fancy system info
 neofetch

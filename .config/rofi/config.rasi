@@ -11,6 +11,7 @@ configuration {
     show-icons: true;
     sidebar-mode: true;
     combi-modi: "window,drun";
+    theme: "~/.cache/wal/colors-rofi-dark.rasi";
     separator-style: "none";
     hide-scrollbar: true;
     fullscreen: false;

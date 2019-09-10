@@ -43,3 +43,4 @@ export SSH_AUTH_SOCK
 exec /usr/bin/awesome >> ~/.cache/awesome/stdout 2>> ~/.cache/awesome/stderr
 exec /usr/bin/prime-offload
 exec setxkbmap -rules evdev -model evdev -layout us -variant altgr-intl
+exec wal -R
