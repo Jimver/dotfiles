@@ -2,6 +2,18 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.config/awesome/bin:$HOME/.local/bin:$PATH
 
+# Export vulkan sdk environment variable
+export VULKAN_SDK=$HOME/vulkan/1.1.121.1/x86_64
+
+# Add vulkan sdk to path
+export PATH=$VULKAN_SDK/bin:$PATH
+
+# Add vulkan to LD library path
+export LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH
+
+# Add vulkan layer path
+export VK_LAYER_PATH=$VULKAN_SDK/etc/vulkan/explicit_layer.d
+
 # Update wal colours
 (cat ~/.cache/wal/sequences &)
 

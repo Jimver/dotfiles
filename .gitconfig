@@ -5,12 +5,5 @@
 [commit]
 	gpgsign = true
 
-[includeIf "gitdir:/home/jim/work/"]
-    [user]
-        email = "jim@polygon.nl"
-	name = Jim Verheijde
-	signingkey = 5F9B0E00138E775F
-    [core]
-        sshCommand = "ssh -i ~/.ssh/work_key"
-	autocrlf = input
-
+[includeIf "gitdir:~/work/"]
+	path='~/.gitconfig-work'
